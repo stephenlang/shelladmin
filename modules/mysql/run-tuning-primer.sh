@@ -63,6 +63,7 @@ if [ ! -f /root/tuning-primer.sh ]; then
 	install_tuning-primer
 fi
 
+chmod 755 /root/tuning-primer.sh
 /root/tuning-primer.sh
 echo "Press any key to continue..."
 read -p "$*"
